@@ -4,20 +4,20 @@ using System.Linq;
 
 namespace LinqToXml
 {
-class Program
-{
-    static void Main(string[] args)
+    class Program
     {
-        var xmldoC = XDocument.Load(@".\example.xml");
-        XNamespace nonamespace = XNamespace.None;
-        var xmlProducts = xmldoC.Descendants("book").Where(x => (string)x.Element("author") == "Corets, Eva");
-        foreach (var item in xmlProducts)
+        static void Main(string[] args)
         {
-            Console.WriteLine(item.Element("title")?.Value);
+            var xmldoC = XDocument.Load(@".\example.xml");
+            XNamespace nonamespace = XNamespace.None;
+            var xmlProducts = xmldoC.Descendants("book").Where(x => (string)x.Element("author") == "Corets, Eva");
+            foreach (var item in xmlProducts)
+            {
+                Console.WriteLine(item.Element("title")?.Value);
+            }
+            Console.ReadKey();
         }
-        Console.ReadKey();
     }
-}
 }
 
 
