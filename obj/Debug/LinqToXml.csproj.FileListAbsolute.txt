@@ -1,0 +1,5 @@
+c:\users\filip555\documents\visual studio 2015\Projects\LinqToXml\LinqToXml\bin\Debug\LinqToXml.exe
+c:\users\filip555\documents\visual studio 2015\Projects\LinqToXml\LinqToXml\bin\Debug\LinqToXml.pdb
+c:\users\filip555\documents\visual studio 2015\Projects\LinqToXml\LinqToXml\obj\Debug\LinqToXml.csprojResolveAssemblyReference.cache
+c:\users\filip555\documents\visual studio 2015\Projects\LinqToXml\LinqToXml\obj\Debug\LinqToXml.exe
+c:\users\filip555\documents\visual studio 2015\Projects\LinqToXml\LinqToXml\obj\Debug\LinqToXml.pdb
